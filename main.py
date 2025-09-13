@@ -41,4 +41,8 @@ if df is not None:
     fig, ax = plt.subplots(figsize=(10,6))
     ax.barh(subset["Country"], subset["Proportion"], color="skyblue")
     ax.set_title(f"Top 10 Countries with Highest {selected_mbti} Proportion")
-    ax.set_xlabel("Proportion")_
+    ax.set_xlabel("Proportion")
+    ax.set_ylabel("Country")
+    ax.invert_yaxis()
+
+    st.pyplot(fig)
