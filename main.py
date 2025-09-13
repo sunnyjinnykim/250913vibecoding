@@ -1,6 +1,4 @@
-import streamlit as st
-st.title('나의 첫 웹앱!')
-st.write('이걸 내가 만들었다고?!')
+
 import streamlit as st
 from typing import Dict, List
 import random
